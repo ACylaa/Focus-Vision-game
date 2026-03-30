@@ -21,7 +21,7 @@
 
         <div class="auth">
             <button class="btn-signin">Sign In</button>
-            <a href="#">Register</a>
+            <a href="register.html">Register</a>
         </div>
     </header>
 
@@ -32,7 +32,7 @@
         <div class="left">
             <h1>Sign In to<br>get your nutrients</h1>
             <p>If you don't have an account.<br>
-                You can <span class="register-link">Register here !</span>
+                You can <a href="register.html" span class="register-link">Register here !</span> </a>
             </p>
 
             <div class="image-wrapper">
@@ -44,21 +44,21 @@
         <div class="right">
             <h2>Welcome Back</h2>
 
-            <form class="form">
+            <form class="form" action="home.html">
 
                 <div class="input-box">
-                    <input type="email" placeholder="Enter Email">
+                    <input type="email" placeholder="Enter Email" required>
                     <img src="icon/icon_x.png" class="x-icon">
                 </div>
 
                 <div class="input-box">
-                    <input type="password" placeholder="••••••••">
+                    <input type="password" placeholder="••••••••" required>
                     <img src="icon/icon_password.png" class="password-icon">
                 </div>
 
                 <p class="forgot-password">Recover Password ?</p>
 
-                <button class="submit-btn">Sign In</button>
+                <button class="submit-btn" type="submit">Sign In</button>
 
                 <div class="divider">Or continue with</div>
             </form>

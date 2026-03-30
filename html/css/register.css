@@ -49,6 +49,18 @@ nav .active {
     gap: 15px;
 }
 
+.auth a{
+    text-decoration: none;
+    color:#7C5A90;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.auth a:hover{
+    text-decoration: underline;
+    color: #5a86c8;
+}
+
 .btn-register {
     background: #1e4db7;
     color: white;
@@ -78,10 +90,16 @@ nav .active {
     color: #555;
 }
 
-.login-link {
-    color: #7C5A90;
-    font-weight: bold;
-    cursor: pointer;
+.login-link{
+    color:#7C5A90;
+    cursor:pointer;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.login-link:hover{
+    text-decoration:underline;
+    color: #5a86c8;
 }
 
 /* Image Circle Background */
